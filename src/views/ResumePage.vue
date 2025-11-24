@@ -281,6 +281,15 @@
                       <div class="skill-progress" style="width: 65%"></div>
                     </div>
                   </div>
+                    <div class="skill-item">
+                    <div class="skill-header">
+                      <span class="skill-name">C#</span>
+                      <span class="skill-percentage">70%</span>
+                    </div>
+                    <div class="skill-bar">
+                      <div class="skill-progress" style="width: 70%"></div>
+                    </div>
+                  </div>
 
                   <div class="skill-item">
                     <div class="skill-header">
@@ -302,6 +311,42 @@
                     </div>
                   </div>
                 </div>
+              </div>
+              
+
+            <div class="skill-category">
+                <h4 class="category-title">Database Development</h4>
+                <div class="skills-grid">
+                  <div class="skill-item">
+                    <div class="skill-header">
+                      <span class="skill-name">MySQL</span>
+                      <span class="skill-percentage">80%</span>
+                    </div>
+                    <div class="skill-bar">
+                      <div class="skill-progress" style="width: 80%"></div>
+                    </div>
+                  </div>
+
+                  <div class="skill-item">
+                    <div class="skill-header">
+                      <span class="skill-name">PostrgeSQL</span>
+                      <span class="skill-percentage">70%</span>
+                    </div>
+                    <div class="skill-bar">
+                      <div class="skill-progress" style="width: 70%"></div>
+                    </div>
+                  </div>
+                    <div class="skill-item">
+                    <div class="skill-header">
+                      <span class="skill-name">MongoDB</span>
+                      <span class="skill-percentage">50%</span>
+                    </div>
+                    <div class="skill-bar">
+                      <div class="skill-progress" style="width: 50%"></div>
+                    </div>
+                  </div>
+</div>
+              
               </div>
 
               <div class="skill-category">

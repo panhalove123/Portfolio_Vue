@@ -96,48 +96,7 @@
             </div>
           </section>
 
-          <!-- Featured Project Section -->
-          <section class="featured-section">
-            <div class="featured-container">
-              <h3 class="featured-title">Featured Project</h3>
-              <div class="featured-project">
-                <div class="featured-image">
-                  <img src="" alt="Featured Project" />
-                </div>
-                <div class="featured-content">
-                  <h4 class="featured-name">Virtual Company 1 - E-Commerce Platform</h4>
-                  <p class="featured-description">
-                    A comprehensive e-commerce solution built during my Virtual Company project. 
-                    Features include a complete POS system, inventory management, customer profiles, 
-                    and a responsive frontend built with modern web technologies.
-                  </p>
-                  <div class="featured-highlights">
-                    <div class="highlight-item">
-                      <span class="highlight-icon">⚡</span>
-                      <span>High Performance</span>
-                    </div>
-                    <div class="highlight-item">
-                      <span class="highlight-icon">📱</span>
-                      <span>Mobile Responsive</span>
-                    </div>
-                    <div class="highlight-item">
-                      <span class="highlight-icon">🔒</span>
-                      <span>Secure Backend</span>
-                    </div>
-                  </div>
-                  <div class="featured-actions">
-                    <a href="https://github.com/sovan-souern/VC1-G10.git" target="_blank" class="featured-btn primary">
-                      <span>View on GitHub</span>
-                      <span class="btn-arrow">→</span>
-                    </a>
-                    <button class="featured-btn secondary">
-                      <span>Learn More</span>
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
+
         </div>
       </div>
     </div>
@@ -224,11 +183,11 @@ const projects = ref([
     description: 'Advanced web application project currently in development with modern frameworks and technologies.',
     image: '/placeholder.svg?height=300&width=400',
     category: 'web-development',
-    technologies: ['Vue.js', 'Node.js', 'MongoDB', 'Express'],
-    github: null,
+    technologies: ['Vue.js', 'Node.js', 'MYSQL'],
+    github: 'https://github.com/panhalove123/Anajak_Travel_VC2.git',
     demo: null,
-    date: 'In Progress',
-    status: 'in-progress'
+    date: 'Agust 2025',
+    status: 'completed'
   },
   {
     id: 7,

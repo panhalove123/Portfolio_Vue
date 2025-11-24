@@ -16,7 +16,7 @@
               <div class="text-block">
                 <h3 class="section-heading">Hello! I'm Nhean Panha</h3>
                 <p class="intro-paragraph">
-                  I'm a passionate web developer from Siem Reap, Cambodia, specializing in creating 
+                  I'm a passionate Backend developer from Siem Reap, Cambodia, specializing in creating 
                   beautiful, functional, and user-centered digital experiences. I love turning complex 
                   problems into simple, elegant solutions that make a difference.
                 </p>
@@ -24,7 +24,7 @@
               
               <div class="text-block">
                 <p class="intro-paragraph">
-                  My journey in web development is driven by curiosity and a desire to continuously learn. 
+                  My journey in Backend development is driven by curiosity and a desire to continuously learn. 
                   I believe that great design is not just about how it looks, but how it works. Every project 
                   I work on is an opportunity to create something meaningful and impactful.
                 </p>
@@ -55,6 +55,31 @@
             </div>
 
             <div class="services-grid">
+
+              <div class="service-card Backend">
+                <div class="service-icon">
+                  <div class="icon-wrapper"></div>
+                </div>
+
+                <div class="service-content">
+                  <h4 class="service-title">Backend Developer</h4>
+
+                  <p class="service-description">
+                    Ensuring scalability and performance.
+                  </p>
+
+                  <div class="service-tags">
+                    <span class="tag">Build API</span>
+                    <span class="tag">C# / .NET</span>
+                    <span class="tag">PostgreSQL</span>
+                    <span class="tag">Authentication</span>
+                    <span class="tag">Report PDF/Excel</span>
+                    <span class="tag">Clean Architecture</span>
+                  </div>
+                </div>
+              </div>
+
+
               <div class="service-card web-design">
                 <div class="service-icon">
                   <div class="icon-wrapper">🎨</div>
@@ -126,6 +151,7 @@
                   </div>
                 </div>
               </div>
+
             </div>
           </section>
 
@@ -211,24 +237,7 @@
             </div>
           </section>
 
-          <!-- Enhanced CV Download Section -->
-          <section class="cv-section">
-            <div class="cv-card">
-              <div class="cv-content">
-                <h3 class="cv-title">Ready to work together?</h3>
-                <p class="cv-description">Download my CV to learn more about my experience and skills</p>
-                <a href="../assets/CV/Panha.pdf" class="cv-btn" download>
-                  <span class="btn-icon">📄</span>
-                  <span class="btn-text">Download My CV</span>
-                  <span class="btn-arrow">→</span>
-                </a>
-              </div>
-              <div class="cv-decoration">
-                <div class="decoration-circle"></div>
-                <div class="decoration-dots"></div>
-              </div>
-            </div>
-          </section>
+        
         </section>
       </div>
     </div>
