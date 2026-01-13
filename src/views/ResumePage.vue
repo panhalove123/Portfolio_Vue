@@ -31,7 +31,7 @@
                   <div class="stat-label">Technologies</div>
                 </div>
                 <div class="stat-item">
-                  <div class="stat-number">2+</div>
+                  <div class="stat-number">3+</div>
                   <div class="stat-label">Years</div>
                 </div>
               </div>
@@ -236,6 +236,24 @@
                       <div class="skill-progress" style="width: 70%"></div>
                     </div>
                   </div>
+                  <div class="skill-item">
+                    <div class="skill-header">
+                      <span class="skill-name">React.js</span>
+                      <span class="skill-percentage">40%</span>
+                    </div>
+                    <div class="skill-bar">
+                      <div class="skill-progress" style="width: 40%"></div>
+                    </div>
+                  </div>
+                  <div class="skill-item">
+                    <div class="skill-header">
+                      <span class="skill-name">Nuxt.js</span>
+                      <span class="skill-percentage">40%</span>
+                    </div>
+                    <div class="skill-bar">
+                      <div class="skill-progress" style="width: 40%"></div>
+                    </div>
+                  </div>
 
                   <div class="skill-item">
                     <div class="skill-header">
@@ -298,6 +316,15 @@
                     </div>
                     <div class="skill-bar">
                       <div class="skill-progress" style="width: 65%"></div>
+                    </div>
+                  </div>
+                  <div class="skill-item">
+                    <div class="skill-header">
+                      <span class="skill-name">Java</span>
+                      <span class="skill-percentage">40%</span>
+                    </div>
+                    <div class="skill-bar">
+                      <div class="skill-progress" style="width: 40%"></div>
                     </div>
                   </div>
 

@@ -88,80 +88,103 @@
         </transition>
 
         <transition name="slide-fade">
-          <div class="contact-section" v-show="!isCollapsed">
-            <h3 class="section-title">Get In Touch</h3>
-            <ul class="contacts-list">
-              <li class="contact-item">
-                <div class="icon-box email">
-                  <ion-icon name="mail-outline"></ion-icon>
-                </div>
-                <div class="contact-info">
-                  <p class="contact-title">Email</p>
-                  <a href="mailto:nheanpanha12629@gmail.com" class="contact-link">
-                    nheanpanha12629@gmail.com
-                  </a>
-                </div>
-              </li>
-              <li class="contact-item">
-                <div class="icon-box phone">
-                  <ion-icon name="phone-portrait-outline"></ion-icon>
-                </div>
-                <div class="contact-info">
-                  <p class="contact-title">Phone</p>
-                  <a href="tel:+855978211204" class="contact-link">
-                    +(855) 978 211 204
-                  </a>
-                </div>
-              </li>
-              <li class="contact-item">
-                <div class="icon-box birthday">
-                  <ion-icon name="calendar-outline"></ion-icon>
-                </div>
-                <div class="contact-info">
-                  <p class="contact-title">Birthday</p>
-                  <time datetime="2004-11-02">November 02, 2004</time>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </transition>
+        <div class="contact-section" 
+            v-show="!isCollapsed || isMobileSidebarOpen">
+          <h3 class="section-title">Get In Touch</h3>
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div >
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+                <a href="mailto:nheanpanha12629@gmail.com" class="contact-link">
+                  nheanpanha12629@gmail.com
+                </a>
+              </div>
+            </li>
+            <li class="contact-item">
+              <div >
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
+                <a href="tel:+855978211204" class="contact-link">
+                  +(855) 978 211 204
+                </a>
+              </div>
+            </li>
+            <li class="contact-item">
+              <div >
+                <ion-icon name="calendar-outline"></ion-icon>
+              </div>
+              <div class="contact-info">
+                <p class="contact-title">Birthday</p>
+                <time datetime="2004-11-02">November 02, 2004</time>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </transition>
+
 
         <transition name="fade">
           <div class="separator" v-show="!isCollapsed"></div>
         </transition>
 
-        <transition name="slide-fade">
-          <div class="social-section" v-show="!isCollapsed">
-            <h3 class="section-title">Follow Me</h3>
-            <ul class="social-list">
-              <li class="social-item">
-                <a href="https://www.facebook.com/share/16s6v1t3U3/?mibextid=wwXIfr" 
-                   class="social-link facebook" target="_blank" rel="noopener" aria-label="Facebook">
-                  <ion-icon name="logo-facebook"></ion-icon>
-                  <span class="social-tooltip">Facebook</span>
-                </a>
-              </li>
-              <li class="social-item">
-                <a href="https://www.linkedin.com/in/nhean-panha-11420b345/" 
-                   class="social-link linkedin" target="_blank" rel="noopener" aria-label="LinkedIn">
-                  <ion-icon name="logo-linkedin"></ion-icon>
-                  <span class="social-tooltip">LinkedIn</span>
-                </a>
-              </li>
-              <li class="social-item">
-                <a href="https://t.me/Nhean_PanhaA" 
-                   class="social-link telegram" target="_blank" rel="noopener" aria-label="Telegram">
-                  <span class="telegram-icon">📱</span>
-                  <span class="social-tooltip">Telegram</span>
-                </a>
-              </li>
-            </ul>
-            <div class="sidebar-quote">
-              <span class="quote-icon">❝</span>
-              <span class="quote-text">"Code is like humor. When you have to explain it, it’s bad."</span>
-            </div>
-          </div>
-        </transition>
+     <transition name="slide-fade">
+  <div class="social-section" v-show="!isCollapsed">
+    <h3 class="section-title text-gray-800 dark:text-gray-200 font-bold text-sm uppercase mb-3">Follow Me</h3>
+    <ul class="flex gap-9 justify-center">
+      <!-- Facebook -->
+      <li>
+        <a href="https://www.facebook.com/share/16s6v1t3U3/?mibextid=wwXIfr" 
+           target="_blank" rel="noopener" 
+           class="w-10 h-10 flex items-center justify-center rounded-lg bg-blue-600 text-white hover:scale-110 hover:shadow-lg transition-transform relative group">
+          <!-- Facebook SVG Icon -->
+          <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-5 h-5" viewBox="0 0 24 24">
+            <path d="M22.675 0h-21.35C.598 0 0 .598 0 1.326v21.348C0 23.402.598 24 1.326 24h11.495v-9.294H9.692v-3.622h3.129V8.413c0-3.1 1.894-4.788 4.659-4.788 1.325 0 2.463.098 2.794.142v3.24l-1.918.001c-1.504 0-1.796.715-1.796 1.763v2.31h3.587l-.467 3.622h-3.12V24h6.116C23.402 24 24 23.402 24 22.674V1.326C24 .598 23.402 0 22.675 0z"/>
+          </svg>
+          <span class="absolute -top-8 left-1/2 -translate-x-1/2 bg-gray-900 text-white text-xs px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity">
+            Facebook
+          </span>
+        </a>
+      </li>
+
+      <!-- LinkedIn -->
+      <li>
+        <a href="https://www.linkedin.com/in/nhean-panha-11420b345/" 
+           target="_blank" rel="noopener" 
+           class="w-10 h-10 flex items-center justify-center rounded-lg bg-blue-700 text-white hover:scale-110 hover:shadow-lg transition-transform relative group">
+          <!-- LinkedIn SVG Icon -->
+          <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-5 h-5" viewBox="0 0 24 24">
+            <path d="M4.98 3.5c0 1.381-1.116 2.5-2.49 2.5C1.117 6 0 4.881 0 3.5S1.117 1 2.49 1 4.98 2.119 4.98 3.5zM0 8h4.981v16H0V8zm7.982 0h4.773v2.181h.067c.665-1.26 2.287-2.589 4.709-2.589 5.035 0 5.96 3.31 5.96 7.615V24h-4.981v-7.593c0-1.811-.033-4.141-2.521-4.141-2.521 0-2.906 1.968-2.906 4.006V24H7.982V8z"/>
+          </svg>
+          <span class="absolute -top-8 left-1/2 -translate-x-1/2 bg-gray-900 text-white text-xs px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity">
+            LinkedIn
+          </span>
+        </a>
+      </li>
+
+      <!-- Telegram -->
+      <li>
+        <a href="https://t.me/Nhean_PanhaA" 
+           target="_blank" rel="noopener" 
+           class="w-10 h-10 flex items-center justify-center rounded-lg bg-blue-400 text-white hover:scale-110 hover:shadow-lg transition-transform relative group">
+          <!-- Telegram SVG Icon -->
+          <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-5 h-5" viewBox="0 0 24 24">
+            <path d="M9.94 16.56l-.388 5.497c.555 0 .796-.24 1.08-.527l2.593-2.412 5.373 3.925c.985.546 1.682.261 1.936-.906l3.509-16.408c.33-1.527-.555-2.173-1.527-1.775L1.14 9.562c-1.514.584-1.5 1.41-.261 1.765l5.985 1.864L19.32 5.5c.5-.36.957-.16.583.224l-10.187 10.837z"/>
+          </svg>
+          <span class="absolute -top-8 left-1/2 -translate-x-1/2 bg-gray-900 text-white text-xs px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity">
+            Telegram
+          </span>
+        </a>
+      </li>
+    </ul>
+  </div>
+</transition>
+
+
       </div>
     </aside>
   </div>
