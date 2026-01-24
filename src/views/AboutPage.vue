@@ -32,7 +32,7 @@
 
               <div class="stats-grid">
                 <div class="stat-item">
-                  <div class="stat-number">15+</div>
+                  <div class="stat-number">10+</div>
                   <div class="stat-label">Projects Completed</div>
                 </div>
                 <div class="stat-item">

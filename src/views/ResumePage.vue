@@ -54,7 +54,7 @@
                   <div class="timeline-item">
                     <div class="timeline-dot"></div>
                     <div class="timeline-content">
-                      <div class="timeline-date">2024 - Present</div>
+                      <div class="timeline-date">2024 - 2026</div>
                       <h4 class="timeline-item-title">Associate Degree in Web Development</h4>
                       <p class="timeline-institution">Passerelles Numériques Cambodia (PNC)</p>
                       <p class="timeline-description">
@@ -84,108 +84,8 @@
                 </div>
               </div>
 
-              <!-- Experience -->
-              <div class="timeline-column">
-                <div class="timeline-header">
-                  <div class="timeline-icon experience">
-                    <span>💼</span>
-                  </div>
-                  <h3 class="timeline-title">Experience</h3>
-                </div>
-                
-                <div class="timeline-list">
-                  <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                      <div class="timeline-date">March - April 2025</div>
-                      <h4 class="timeline-item-title">Full-Stack Developer & Data Analyst</h4>
-                      <p class="timeline-institution">Virtual Company 1 Project</p>
-                      <p class="timeline-description">
-                        Led development of comprehensive POS system and e-commerce website for salon business.
-                      </p>
-                      <ul class="timeline-achievements">
-                        <li>Designed responsive UI/UX in Figma for desktop and mobile</li>
-                        <li>Built POS system for inventory and customer management</li>
-                        <li>Developed e-commerce platform with PHP MVC architecture</li>
-                        <li>Implemented product catalog with filtering and sorting</li>
-                      </ul>
-                      <div class="timeline-tech">
-                        <span class="tech-tag">PHP</span>
-                        <span class="tech-tag">MySQL</span>
-                        <span class="tech-tag">Bootstrap</span>
-                        <span class="tech-tag">JavaScript</span>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                      <div class="timeline-date">January 2025</div>
-                      <h4 class="timeline-item-title">Team Leader - JavaScript Project</h4>
-                      <p class="timeline-institution">Inventory Management System</p>
-                      <p class="timeline-description">
-                        Led team in designing and developing inventory management system using vanilla JavaScript.
-                      </p>
-                      <ul class="timeline-achievements">
-                        <li>Managed team collaboration and task distribution</li>
-                        <li>Implemented dynamic inventory tracking features</li>
-                        <li>Ensured timely delivery and quality standards</li>
-                      </ul>
-                      <div class="timeline-tech">
-                        <span class="tech-tag">JavaScript</span>
-                        <span class="tech-tag">HTML5</span>
-                        <span class="tech-tag">CSS3</span>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                      <div class="timeline-date">November 2024</div>
-                      <h4 class="timeline-item-title">Team Leader - Algorithm Project</h4>
-                      <p class="timeline-institution">Face Detection Application</p>
-                      <p class="timeline-description">
-                        Led development of face detection application using Python and computer vision.
-                      </p>
-                      <ul class="timeline-achievements">
-                        <li>Implemented real-time face detection via webcam</li>
-                        <li>Developed automatic name identification system</li>
-                        <li>Optimized algorithm performance and accuracy</li>
-                      </ul>
-                      <div class="timeline-tech">
-                        <span class="tech-tag">Python</span>
-                        <span class="tech-tag">OpenCV</span>
-                        <span class="tech-tag">Machine Learning</span>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                      <div class="timeline-date">October 2024</div>
-                      <h4 class="timeline-item-title">Team Leader - Web Design Project</h4>
-                      <p class="timeline-institution">Music Band Website</p>
-                      <p class="timeline-description">
-                        Designed and developed responsive website for music band with modern aesthetics.
-                      </p>
-                      <ul class="timeline-achievements">
-                        <li>Created responsive design with SASS and CSS3</li>
-                        <li>Implemented Git workflow for team collaboration</li>
-                        <li>Debugged and optimized website performance</li>
-                      </ul>
-                      <div class="timeline-tech">
-                        <span class="tech-tag">HTML5</span>
-                        <span class="tech-tag">SASS</span>
-                        <span class="tech-tag">JavaScript</span>
-                        <span class="tech-tag">Git</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              
+             
             </div>
           </section>
 
